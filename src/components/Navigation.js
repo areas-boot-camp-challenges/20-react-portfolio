@@ -1,17 +1,28 @@
 // React.
 import React from "react"
+import { NavLink } from "react-router-dom"
 
 // Component.
-function Navigation({ pageNames }) {
+function Navigation() {
+	// Navigation items.
+	const pageNames = [
+		"About",
+		"Portfolio",
+		"Contact",
+		"Resume",
+	]
 	// Navigation links.
 	const navLinks = pageNames.map((pageName, index) => {
 		return (
-			<a
-				className="text-2xl sm:text-4xl text-white bg-black w-28 sm:w-36 mb-0 sm:mb-5 lg:mt-5 py-1"
-				href={"#" + pageName.toLowerCase()}
+			<NavLink
+				className="text-2xl sm:text-4xl text-white bg-black w-32 sm:w-36 mb-0 sm:mb-5 lg:mt-5 py-1"
+				to={pageName === pageNames[0]
+					? "/"
+					: "/" + pageName.toLowerCase()
+				}
 				key={index}>
 					{pageName}
-			</a>
+			</NavLink>
 		)
 	})
 
