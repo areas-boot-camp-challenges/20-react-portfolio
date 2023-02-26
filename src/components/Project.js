@@ -12,10 +12,8 @@ function Project({ title, url, github, githubUrl, image }) {
 					<h3 className="text-xl sm:text-4xl font-bold">
 						{title}
 					</h3>
-					<p className="text-base sm:text-3xl font-thin">
-						<a href={githubUrl} alt="">
-							{github}
-						</a>
+					<p className="text-sm sm:text-xl font-thin">
+						<a href={githubUrl} className="text-blue-400" alt="">{github}</a>
 					</p>
 				</div>
 			</a>
