@@ -6,7 +6,7 @@ function Resume() {
 	// JSX.
 	return (
 		<>
-			<a className="font-thin text-blue-500 pb-3" href="Christian Areas.pdf">Download my resume.</a>
+			<a className="font-thin text-blue-500 pb-3" href="./Christian Areas.pdf">Download my resume.</a>
 			<h3 className="text-2xl">Front-End Skills</h3>
 			<ul className="font-thin list-disc pl-5 pt-2 pb-5">
 				<li>HTML</li>

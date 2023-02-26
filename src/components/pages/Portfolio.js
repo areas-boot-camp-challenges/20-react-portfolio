@@ -14,14 +14,14 @@ function Portfolio() {
 				url="https://areas-boot-camp-projects.github.io/karaoke/"
 				github="areas-boot-camp-projects/karaoke"
 				githubUrl="https://github.com/areas-boot-camp-projects/karaoke/"
-				image="/images/karaoke-app.jpg"
+				image="./images/karaoke-app.jpg"
 			/>
 			<Project
 				title="Safe Travels"
 				url="https://safe-travels.herokuapp.com"
 				github="areas-boot-camp-projects/safe-travels"
 				githubUrl="https://github.com/areas-boot-camp-projects/safe-travels"
-				image="/images/safe-travels.png"
+				image="./images/safe-travels.png"
 			/>
 		</>
 	)
