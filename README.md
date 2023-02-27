@@ -1,8 +1,8 @@
 # Christian’s React Portfolio
 ## Description
-A simple portfolio built with React!
+A [simple portfolio](https://areas-boot-camp-challenges.github.io/20-react-portfolio/) built with React!
 
-<!-- if appropriate, add a screenshot ![image-alt](image-url) -->
+![areas.me Portfolio](./public/images/areas.me.png)
 
 ![GNU GPLv3 License Badge](https://img.shields.io/github/license/areas-boot-camp-challenges/20-react-portfolio)
 
