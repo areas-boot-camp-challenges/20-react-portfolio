@@ -14,7 +14,7 @@ function Portfolio() {
 				url="https://cheat-leaf.herokuapp.com"
 				github="areas-boot-camp-projects/cheat-leaf"
 				githubUrl="https://github.com/areas-boot-camp-projects/cheat-leaf"
-				image="./images/cheat-sheet.png"
+				image="./images/cheat-sheet.jpg"
 			/>
 			<Project
 				title="Safe Travels"
